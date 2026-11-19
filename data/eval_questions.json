@@ -1,0 +1,10 @@
+[
+  {"question":"How many days after delivery can a customer return an item?", "source":"returns_policy.md"},
+  {"question":"What documentation is required for a refund?", "source":"returns_policy.md"},
+  {"question":"What should we do with negative Sage inventory quantities?", "source":"inventory_policy.md"},
+  {"question":"What is the default order shipping carrier?", "source":"order_policy.md"},
+  {"question":"Where should API credentials be stored securely?", "source":"security_policy.md"},
+  {"question":"Who must approve inventory adjustments?", "source":"inventory_policy.md"},
+  {"question":"What do we check before importing orders to avoid duplicates?", "source":"order_policy.md"},
+  {"question":"When should damaged goods be reported?", "source":"returns_policy.md"}
+]

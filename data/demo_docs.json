@@ -1,0 +1,6 @@
+[
+ {"source":"returns_policy.md","text":"Returns policy: Customers can request returns within 30 calendar days of delivery if items are unused and in original packaging. Returns require a receipt or original order number. Damaged items should be reported within 7 days. Refunds are issued to the original payment method after warehouse inspection."},
+ {"source":"inventory_policy.md","text":"Inventory operations: Report negative Sage available quantities as zero in customer-facing reports and email alerts. Do not oversell. Low-stock notifications use an explicit reorder threshold. Inventory adjustments require authorized human review. SKU is the reconciliation key across Shopify and Sage."},
+ {"source":"order_policy.md","text":"Order handling: Orders imported from Shopify must be checked against existing Sage order numbers before write actions to prevent duplicates. USPS is the default shipment option unless staff select another carrier. Faire orders with JR suffix require manual staff review before finalization."},
+ {"source":"security_policy.md","text":"Security procedures: API keys belong in environment variables, not source control. Do not include customer personal information in sample documents or model prompts. Every automated inventory write needs a human approval step and an audit trail."}
+]
